@@ -100,7 +100,7 @@ def E_step(dataSetArr, alpha0, mu0, sigmod0, alpha1, mu1, sigmod1):
 
     #两者相加为E步中的分布
     sum = gamma0 + gamma1
-    #各自相除，得到两个模型的响应度
+    #各自相除，得到两个模型的响应度 
     gamma0 = gamma0 / sum
     gamma1 = gamma1 / sum
 
